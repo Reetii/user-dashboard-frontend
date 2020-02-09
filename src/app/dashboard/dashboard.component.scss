@@ -1,0 +1,46 @@
+.container-fluid{
+  width:90%;
+  margin:auto;
+}
+$yellow:#F4B401;
+.user-block{
+  display:inline;
+  .user-img{
+    width:3rem;
+    height:3rem;
+  }
+  .user-text{
+    font-size: 1.7rem;
+    letter-spacing: 0.2px;
+    font-weight:lighter;
+  }
+
+}
+/* Search box style */
+.search-box {
+
+  input {
+    background: url('../../assets/ico_search.svg') no-repeat scroll 95% 8px;
+    padding-left:30px;
+  }
+
+}
+.add-btn{
+  background: $yellow;
+  color:#fff;
+  img{
+    margin:0 0.2rem;
+  }
+  span{
+    font-size:0.9rem;
+  }
+}
+table{
+  .header{
+    text-transform: uppercase;
+  }
+  .status-img{
+    margin: 0 0.7rem;
+  }
+}
+
